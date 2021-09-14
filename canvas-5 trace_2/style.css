@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    position: relative;
+    height: 100vh;
+}
+.canvas__button{
+    position: absolute;
+    padding: 20px 30px;
+    top: 20px;
+    right: 30px;
+    background-color: rgb(61, 95, 204);
+    color: #fff;
+    z-index: 10;
+}
+#canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
